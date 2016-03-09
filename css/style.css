@@ -47,6 +47,20 @@ header{
     background: rgba(255,255,255,0.5);
 }
 
+
+#content-gq-img{
+    width: 35%;
+    height: 35%;
+
+    margin: 10px 10px;
+}
+
+.content-h1{
+    margin-left: 10px;
+    /*color: blue;*/
+
+}
+
 #left-1{
     float: left;
 
@@ -66,6 +80,31 @@ header{
     float: right;
 
 }
+
+li{
+    margin-bottom: 10px;
+}
+
+/*LoVe-HeAt*/
+
+a:link { /*伪类*/
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+a:active {
+    color: red;
+}
+
+
 
 .intro{
     background: url("../img/light.jpg") no-repeat top left;
