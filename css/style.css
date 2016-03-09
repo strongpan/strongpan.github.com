@@ -1,8 +1,8 @@
 
 
 body {
-    background:  url(../img/tree.jpg) fixed;
-
+    /*background:  url(../img/tree.jpg) fixed;*/
+    background: black fixed;
 }
 
 header{
@@ -104,7 +104,43 @@ a:active {
     color: red;
 }
 
+img:link{
 
+}
+img:visited{
+
+}
+img:hover.div-img-qr{
+    width: 40%;
+    height: 40%;
+    margin: 0 30%;
+}
+img:active{
+
+}
+
+.div-img-qr{
+    /*margin:  5% 30%;*/
+    margin: 0 35% ;
+}
+.des-center{
+    text-align: center;
+
+}
+
+p b {
+    font-size: 30px;
+    color: black;
+
+}
+.a-qr-name{
+    /*text-underline: ;*/
+    text-decoration: none;
+}
+
+/*p a{*/
+
+/*}*/
 
 .intro{
     background: url("../img/light.jpg") no-repeat top left;
