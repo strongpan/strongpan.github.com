@@ -1,12 +1,12 @@
 
 
 body {
-    /*background:  url(../img/tree.jpg) fixed;*/
-    background: black fixed;
+    background:  url(../img/tree.jpg) fixed;
+    /*background: black fixed;*/
 }
 
 header{
-    background: rgba(255,255,255,0.6);
+    background: rgba(255,255,255,0.7);
 }
 
 .site-header{
@@ -44,7 +44,7 @@ header{
     margin-left: 20px;
     margin-bottom: 20px;
 
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 245, 229, 0.7);
 }
 
 
@@ -111,8 +111,8 @@ img:visited{
 
 }
 img:hover.div-img-qr{
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     margin: 0 30%;
 }
 img:active{
