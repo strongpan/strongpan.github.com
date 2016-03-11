@@ -1,7 +1,8 @@
 
 
 body {
-    background:  url(../img/tree.jpg) fixed;
+    background:  url(../img/morning.jpg) fixed;
+    /*background-size: 100% 100%;*/
     /*background: black fixed;*/
     /*background: darkgray fixed;*/
 }
@@ -48,12 +49,25 @@ header{
     background: rgba(255, 245, 229, 0.7);
 }
 
-
 #content-gq-img{
-    width: 35%;
-    height: 35%;
+    width: 40%;
+    height: 40%;
 
+    /*margin: 10px 10px;*/
+    margin: 0px 30%;
+}
+#content-book-img{
+    width:200px;
+    height: 120px;
+    margin: 10px 20px;
+}
+
+#content-travel-img{
+    width:200px;
+    height: 120px;
     margin: 10px 10px;
+
+    float: right;
 }
 
 .content-h1{
@@ -70,14 +84,12 @@ header{
     float: left;
 }
 
-#right-1
-{
+#right-1{
     float: right;
 
 }
 
-#right-2
-{
+#right-2{
     float: right;
 
 }
